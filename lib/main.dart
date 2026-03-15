@@ -3,6 +3,7 @@ import 'package:flutter_models/provider/user_token_provider.dart';
 import 'package:flutter_models/views/create_task.dart';
 import 'package:flutter_models/views/filter_task.dart';
 import 'package:flutter_models/views/get_all_task.dart';
+import 'package:flutter_models/views/intro_screen.dart';
 import 'package:flutter_models/views/login.dart';
 import 'package:flutter_models/views/search_task.dart';
 import 'package:provider/provider.dart';
@@ -41,7 +42,7 @@ class MyApp extends StatelessWidget {
         // tested with just a hot reload.
         colorScheme: .fromSeed(seedColor: Colors.deepPurple),
       ),
-      home: Login(),
+      home: IntroScreen(),
     );
   }
 }
